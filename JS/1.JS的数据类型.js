@@ -21,7 +21,7 @@ const f = Boolean(1)  // true
 const g = Boolean(null) // false
 const h = Boolean()   // false
 
-
+console.log(a, b, c)
 
 // 4. null 和 undefined 的区别
 // undefined: 定义为赋值
