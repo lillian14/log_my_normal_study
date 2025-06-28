@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="father">
+    <div class="left"></div>
+    <div class="right"></div>
+  </div>
+</body>
+<style>
+  /* flex布局 */
+  /* .father {  
+    width: 500px;
+    height: 400px;
+    border: 1px solid red;
+    display: flex;
+  }
+  .left {
+    flex: 1;
+    background-color: bisque;
+  }
+  .right {
+    flex: 2;
+    background-color: aquamarine;
+  }
+   */
+   /* 方法2 grid布局 */
+  /* .father {
+    width: 500px;
+    height: 400px;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .left {
+    background-color: bisque;
+  }
+  .right {
+    background-color: aquamarine;
+  } */
+
+  .father {
+    width: 500px; 
+    height: 400px;
+    border: 1px solid red;
+  
+  }
+  .left {
+    background-color: bisque;
+    width: calc( 100% / 3);
+    height: 100%;
+    float: left;
+  }
+  .right {
+    background-color: aquamarine;
+    width: calc( 100% / 3 * 2 );
+    float: left;
+    height: 100%;
+  }
+</style>
+</html>
